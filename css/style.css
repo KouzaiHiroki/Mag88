@@ -114,13 +114,13 @@ header {
 
 .catalogantique {
     background-color: #f5f5f5;
-    padding: 60px 0;
 }
 
 .catalogantiqueitems {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 60px 0;
 }
 
 .catalogantiqueitem {
