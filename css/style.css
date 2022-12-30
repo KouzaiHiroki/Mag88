@@ -178,3 +178,49 @@ footer {
     text-align: center;
     padding: 30px 0;
 }
+
+@media screen and (max-width: 896px) {
+    .articlephoto {
+        flex-direction: column;
+    }
+
+    .photoitem {
+        width: 100%;
+    }
+
+    .photoitem:first-child {
+        margin-bottom: 30px;
+    }
+
+    .fashionstyle {
+        padding-top: 35px;
+        margin-bottom: 50px;
+    }
+
+    .catalogantique {
+        padding: 30px 0;
+    }
+    .catalogantiqueitems {
+        flex-direction: column;
+    }
+
+    .catalogantiqueitem {
+        margin-bottom: 60px;
+    }
+
+    .footeritems {
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .footeritem {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .footeritem:first-child {
+        text-align: center;
+        padding: 0;
+    }
+}
