@@ -106,3 +106,37 @@ header {
     padding: 14px 36px;
     margin-top: 30px;
 }
+
+.catalogantique {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+}
+
+.catalogantique {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+}
+
+.catalogantiqueitems {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.catalogantiqueitem {
+    width: 48%;
+    text-align: center;
+}
+
+.catalogantiqueitem img {
+    width: 100%;
+}
+
+.catalogantiqueitem p {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.catalogantiqueitem p:last-child {
+    margin-bottom: 0;
+}
